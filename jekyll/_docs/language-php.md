@@ -64,7 +64,7 @@ a `.ini` file.
 ```
 dependencies:
   pre:
-    - echo "memory_limit = 64M" > /opt/circleci/php/$(phpenv global)/etc/conf.d/memory.ini
+    - echo "memory_limit = 256M" > ~/.phpenv/versions/$(phpenv global)/etc/php.ini
 ```
 
 <span class='label label-info'>Note:</span>
